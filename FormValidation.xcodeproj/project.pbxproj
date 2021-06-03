@@ -11,6 +11,7 @@
 		C0BB014E266988BE00A66CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB014D266988BE00A66CF9 /* ContentView.swift */; };
 		C0BB0150266988C400A66CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BB014F266988C400A66CF9 /* Assets.xcassets */; };
 		C0BB0153266988C400A66CF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BB0152266988C400A66CF9 /* Preview Assets.xcassets */; };
+		C0BB015B266988DF00A66CF9 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BB015A266988DF00A66CF9 /* UserInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C0BB014F266988C400A66CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0BB0152266988C400A66CF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0BB0154266988C400A66CF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BB015A266988DF00A66CF9 /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		C0BB014A266988BE00A66CF9 /* FormValidation */ = {
 			isa = PBXGroup;
 			children = (
+				C0BB015A266988DF00A66CF9 /* UserInfoModel.swift */,
 				C0BB014B266988BE00A66CF9 /* FormValidationApp.swift */,
 				C0BB014D266988BE00A66CF9 /* ContentView.swift */,
 				C0BB014F266988C400A66CF9 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BB015B266988DF00A66CF9 /* UserInfoModel.swift in Sources */,
 				C0BB014E266988BE00A66CF9 /* ContentView.swift in Sources */,
 				C0BB014C266988BE00A66CF9 /* FormValidationApp.swift in Sources */,
 			);
